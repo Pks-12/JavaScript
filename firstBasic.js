@@ -12,5 +12,5 @@ accountEmail = "geu.ac.in";
 accountPassword = 1111122;
 accountCity = "Dehradun";
 
-console.log([accountId,accountEmail,accountPassword,accountCity,]);
+console.log([accountId,accountEmail,accountPassword,accountCity,]);// to print the multiple data in terminal using a console.log([]);array type
 
