@@ -44,7 +44,8 @@ for(let i =0 ;i<n;i++){
     
 }
 
-
+//  Maths is an object ( while see the result using that console.log(math))
+//  Number is a function 
 
 
 
