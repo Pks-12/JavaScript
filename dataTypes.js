@@ -8,11 +8,11 @@ console.log(3 +
 
 console.log("RHCSA");
 
-let name = "RHCSA";
+let Name = "RHCSA";
 let age = 20;
 let isLoggedIn = false;
 let state;
-console.log([name,age,isLoggedIn,state]);
+console.log([Name,age,isLoggedIn,state]);
 
 
 // data Types
