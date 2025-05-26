@@ -41,7 +41,8 @@ console.log(loginUserMessage("ramesh"));
 console.log(loginUserMessage("ramesh"));
 
 
-function calculateCartPrice(val1,val2,...num1){
+function calculateCartPrice(val1,val2,...num1){//   spreadOperator-> that means all value show in result
+                                                //  val1,val2 that parameter occupy the values one by one
     return num1;
 }
 
@@ -53,7 +54,7 @@ const user = {
 }
 
 function handleObject(anyobject){
-    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);// if we access the object using function then we need pass the parameter in function declaration and access as that object (parameter.obejectKeys) and function call(objectName) 
 }
 
 //  handleObject(user)
