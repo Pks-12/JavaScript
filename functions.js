@@ -5,6 +5,8 @@ console.log("E");
 console.log("S");
 console.log("H");
 
+console.log("New Array print");
+
 
 function callName(){
     console.log("R");
@@ -38,4 +40,36 @@ function loginUserMessage(username = "harry") {
 console.log(loginUserMessage("ramesh"));
 console.log(loginUserMessage("ramesh"));
 
+
+function calculateCartPrice(val1,val2,...num1){
+    return num1;
+}
+
+console.log(calculateCartPrice(200,400,599,900,2000));
+
+const user = {
+    username: "ramesh ",
+    price: 300
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+//  handleObject(user)
+
+handleObject({
+    username: "sam",
+    price: 599
+})
+
+const myNewArray = [200,400,500,800];
+
+function returnSecondValue(getArray){
+    return getArray[1];
+}
+
+console.log(returnSecondValue(myNewArray));
+
+console.log(returnSecondValue([200,400,500,1000]));
 
