@@ -25,9 +25,9 @@ const books = [
   ];
 
 
-  let userBooks = books.filter( (bk) =>bk.genre === 'History')
+  //    let userBooks = books.filter( (bk) =>{bk.genre === 'History'}) // if you use the {} bracket then you return the value. if you not using the {} bracket then no value show in result.
 
-  userBooks = books.filter( (bk)=>{
+ let  userBooks = books.filter( (bk)=>{
     return bk.publish>=1995 && bk.genre === "History"
   })
 
