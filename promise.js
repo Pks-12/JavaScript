@@ -22,13 +22,29 @@ new Promise(function(resolve,reject){
 
 const promiseThree = new Promise(function(resolve,reject){
     setTimeout(function(){
-        let error = true
+        let error = false
         if(!error){
-            resolve({username: "ramesh",password:"123"})
+            resolve({username: "ramesh",email:"hi@example.com"})
         }
          else{
                 reject('ERROR: Something went wrong')
             }
+    },1000)
+})
+
+
+promiseThree.then(function(user){
+    console.log(user);
+})
+
+const promiseFour = new Promise(function(resolve,reject){
+    setTimeout(function(){
+        let error = false
+        if(!error){
+            resolve({username:"ramesh",password:"123"})
+        }else{
+            reject('ERROR: SOMETHING went wrong')
+        }
     },1000)
 })
 
