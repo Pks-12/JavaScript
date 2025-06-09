@@ -32,6 +32,19 @@ const newArray = [1,2,"A","B",["ramesh","ravi","yash"],[20,30,40],"isLoggedIn", 
 console.log(newArray);
 
 
+const newArrayFirst = [1,2,3,4,5,6,7,8,9,10];
+const n = newArrayFirst.length;
+let sum = 0;
+for (let i = 0; i < n; i++) {
+    let redeclared = newArrayFirst.shift();
+    sum = sum + redeclared;
+     console.log(`Removed: ${redeclared}`);
+    console.log(`Remaining array: [${newArrayFirst}]`);
+    console.log(`Current sum: ${sum}`);
+}
+
+
+
 
 
 

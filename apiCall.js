@@ -44,8 +44,10 @@
 fetch("https://fakerestapi.azurewebsites.net/api/v1/CoverPhotos")
 .then((response)=> response.json())
 .then ((data)=>{
+    console.log(data);
     data.forEach(photo=>{
-        console.log(photo.url);
+        
+        // console.log(photo.url);
         
     })
 })
