@@ -9,7 +9,7 @@ console.log("Here i see the result");
 const allHero = hero1.concat(hero2)
 console.log(allHero);
 
-const all_new_hero = [...hero1, ...hero2];// spread operator 
+const all_new_hero = [...hero1, ...hero2];// spread operator
 
 console.log(all_new_hero);
 
@@ -31,7 +31,6 @@ const newArray = [1,2,"A","B",["ramesh","ravi","yash"],[20,30,40],"isLoggedIn", 
 
 console.log(newArray);
 
-
 const newArrayFirst = [1,2,3,4,5,6,7,8,9,10];
 const n = newArrayFirst.length;
 let sum = 0;
@@ -43,11 +42,36 @@ for (let i = 0; i < n; i++) {
     console.log(`Current sum: ${sum}`);
 }
 
+const arrayPartOne = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let n1 = arrayPartOne.length;
+let greaterValue = 0;
+let smallerValue = 0;
+for (let i = 0; i < n1; i++) {
+    if (arrayPartOne[i] % 2 == 0) {
+        console.log(`Print the even number ${arrayPartOne[i]}`);
+        greaterValue = arrayPartOne[i];
+    } else {
+        console.log(`Print the Odd value ${arrayPartOne[i]}`);
+        smallerValue = arrayPartOne[i];
+    }
+
+    if(greaterValue> smallerValue){
+        console.log("Greater value",greaterValue, "and smaller value", smallerValue);
+    }
+}
+
+const arrayPartTwo = [1,2,3,4,5,6,7,8,9,10];
+
+let n2 = arrayPartTwo.length;
+for(let i=0;i<n2;i++){
+    let subarray = [];//    without slice function
+    for(let j=i;j<n2;j++){
+        // let subarray = arrayPartTwo.slice(i, j + 1); with slice function. 
+         subarray.push(arrayPartTwo[j]*2);//  without slice function
+        console.log(subarray);
+        
+    }
+}
 
 
-
-
-
-
-
-
+//console.log(arrayPartTwo);
