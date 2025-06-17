@@ -168,6 +168,7 @@
     }
   }
 },
+
   {
   "name": "Bumrah",
   "fullName": "Jasprit Bumrah",
@@ -179,7 +180,7 @@
     "battingType": "Right Handed Bat",
     "bowlingType": "Right-aram fast"
   },
-  "playerImage": {
+  "playerImages": {
     "images": "/JavaScript/playerObject/jB.png"
   },
   "iccRanking": {
@@ -341,7 +342,7 @@
     "bowlingType": "Right-aram fast"
   },
   "playerImages": {
-    "images": "/JavaScript/playerObject/shami.jpg"
+    "images": "/JavaScript/playerObject/shami.png"
   },
   "iccRanking": {
     "batting": {
@@ -350,40 +351,37 @@
       "t20": "-"
     },
     "bowling": {
-      "test": "1",
+      "test": "-",
       "odi": "-",
-      "t20": "39"
+      "t20": "-"
     }
   },
   "careerInformation": {
     "iplTeam": [
-      "Mumbai Indians"
+      "Kolkata Knight Riders","Sunrisers Hyderabad","Punjab Kings","Gujarat Titans","Delhi Capitals"
     ],
     "nationalTeam": [
       "India"
     ],
     "domesticTeam": [
-      "Gujarat",
-      "West Zone",
-      "India A",
-      "India Green"
+      "India A", "Bengal", "Rest of India", "Board Presidents XI", "East Zone","Mohun Bagan", "World XI","Asia XI"
     ]
   },
   "battingCareerSummary": {
     "test": {
-      "50": "0",
+      "50": "2",
       "100": "0",
       "200": "0",
-      "match": "45",
-      "inning": "69",
-      "runs": "332",
-      "bestFigure": "741",
-      "highestScore": "34",
-      "average": "7.06",
-      "strikeRate": "44.81",
-      "nO": "22",
-      "four": "35",
-      "six": "11"
+      "match": "64",
+      "inning": "89",
+      "runs": "750",
+      "bestFigure": "1005",
+      "highestScore": "56",
+      "average": "11.9",
+      "strikeRate": "74.63",
+      "nO": "26",
+      "four": "83",
+      "six": "25"
     },
     "odi": {
       "50": "0",
@@ -488,6 +486,166 @@
       "5W": "02",
       "10W": "0"
     }
+    
+  }
+},
+{
+  "name": "Bhuvi",
+  "fullName": "Mohammed Shami",
+  "personalInformation": {
+    "bornDate": "September 03 1990 ",
+    "birthPlace": "Amroha Uttar Pradesh India",
+    "height": "-",
+    "roleType": "Bowler",
+    "battingType": "Right Handed Bat",
+    "bowlingType": "Right-aram fast"
+  },
+  "playerImages": {
+    "images": "/JavaScript/playerObject/bhuvi.jpg"
+  },
+  "iccRanking": {
+    "batting": {
+      "test": "-",
+      "odi": "-",
+      "t20": "-"
+    },
+    "bowling": {
+      "test": "-",
+      "odi": "-",
+      "t20": "-"
+    }
+  },
+  "careerInformation": {
+    "iplTeam": [
+      "Kolkata Knight Riders","Sunrisers Hyderabad","Punjab Kings","Gujarat Titans","Delhi Capitals"
+    ],
+    "nationalTeam": [
+      "India"
+    ],
+    "domesticTeam": [
+      "India A", "Bengal", "Rest of India", "Board Presidents XI", "East Zone","Mohun Bagan", "World XI","Asia XI"
+    ]
+  },
+  "battingCareerSummary": {
+    "test": {
+      "50": "2",
+      "100": "0",
+      "200": "0",
+      "match": "64",
+      "inning": "89",
+      "runs": "750",
+      "bestFigure": "1005",
+      "highestScore": "56",
+      "average": "11.9",
+      "strikeRate": "74.63",
+      "nO": "26",
+      "four": "83",
+      "six": "25"
+    },
+    "odi": {
+      "50": "0",
+      "100": "0",
+      "200": "0",
+      "match": "89",
+      "inning": "26",
+      "runs": "91",
+      "bestFigure": "159",
+      "highestScore": "16",
+      "average": "7.58",
+      "strikeRate": "57.24",
+      "nO": "14",
+      "four": "10",
+      "six": "1"
+    },
+    "t20": {
+      "50": "0",
+      "100": "0",
+      "200": "0",
+      "match": "70",
+      "inning": "8",
+      "runs": "8",
+      "bestFigure": "14",
+      "highestScore": "7",
+      "average": "2.67",
+      "strikeRate": "57.15",
+      "nO": "5",
+      "four": "1",
+      "six": "0"
+    },
+    "ipl": {
+      "50": "0",
+      "100": "0",
+      "200": "0",
+      "match": "145",
+      "inning": "31",
+      "runs": "68",
+      "bestFigure": "79",
+      "highestScore": "16",
+      "average": "9.71",
+      "strikeRate": "86.08",
+      "nO": "24",
+      "four": "5",
+      "six": "1"
+    }
+  },
+  "bowlingCareerSummary": {
+    "test": {
+      "match": "45",
+      "inning": "86",
+      "balls": "8630",
+      "runs": "3977",
+      "wicket": "205",
+      "average": "19.4",
+      "Econ": "2.77",
+      "sR": "42.1",
+      "bbI": "6/27",
+      "bbM": "09/86",
+      "5W": "13",
+      "10W": "0"
+    },
+    "odi": {
+      "match": "89",
+      "inning": "88",
+      "balls": "4580",
+      "runs": "3509",
+      "wicket": "149",
+      "average": "23.55",
+      "Econ": "4.6",
+      "sR": "30.74",
+      "bbI": "6/19",
+      "bbM": "6/19",
+      "5W": "02",
+      "10W": "0"
+    },
+    "t20": {
+      "match": "70",
+      "inning": "69",
+      "balls": "1509",
+      "runs": "1579",
+      "wicket": "89",
+      "average": "17.74",
+      "Econ": "6.28",
+      "sR": "16.96",
+      "bbI": "3/7",
+      "bbM": "3/7",
+      "5W": "0",
+      "10W": "0"
+    },
+    "ipl": {
+      "match": "145",
+      "inning": "145",
+      "balls": "3337",
+      "runs": "4032",
+      "wicket": "183",
+      "average": "22.03",
+      "Econ": "7.25",
+      "sR": "18.23",
+      "bbI": "5/10",
+      "bbM": "5/10",
+      "5W": "02",
+      "10W": "0"
+    }
+    
   }
 }
 ]
