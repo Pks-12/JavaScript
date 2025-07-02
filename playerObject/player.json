@@ -629,7 +629,225 @@
     }
     
   }
-}
+},
 
+{
+  "name": "Cummins",
+  "fullName": "Pat Cummins",
+  "personalInformation": {
+    "bornDate": "May 08, 1993 ",
+    "birthPlace": "Westmead, Sydney",
+    "height": "1.92 m",
+    "roleType": "Bowler",
+    "battingType": "Right Handed Bat",
+    "bowlingType": "Right-arm fast"
+  },
+  "playerImages": {
+    "images": "/JavaScript/playerObject/pC.png"
+  },
+  "iccRanking": {
+    "batting": {
+      "test": "-","odi": "-","t20": "-"
+    },
+    "bowling": {
+      "test": "-","odi": "-", "t20": "-"
+    }
+  },
+  "careerInformation": {
+    "iplTeam": [
+      "Delhi Capitals"," Kolkata Knight Riders","Mumbai Indians"," Sunrisers Hyderabad"
+    ],
+    "bblTeam":[
+      "Sydney Sixers","Perth Scorchers","Sydney Thunder"
+    ],
+    "mlcTeam":[
+      "San Francisco Unicorns"
+    ],
+    "nationalTeam": [
+      "Australia"
+    ],
+    "domesticTeam": [
+      "Australia A", "New South Wales", "Cummins XI"
+    ]
+  },
+  "battingCareerSummary": {
+    "test": {
+      "50": "3","100": "0","200": "0","match": "69", "inning": "101","runs": "1498","bestFigure": "3198","highestScore": "64","average": "17.02","strikeRate": "46.85","nO": "13","four": "148","six": "32"
+    },
+    "odi": {
+      "50": "0","100": "0","200": "0","match": "90", "inning": "59","runs": "537","bestFigure": "703","highestScore": "37","average": "14.51","strikeRate": "76.39","nO": "22","four": "43","six": "12"
+    },
+    "t20": {
+      "50": "0","100": "0","200": "0","match": "57", "inning": "27","runs": "158","bestFigure": "133","highestScore": "28","average": "10.53","strikeRate": "118.80","nO": "12","four": "11","six": "7"
+    },
+    "ipl": {
+      "50": "3","100": "0","200": "0","match": "72", "inning": "50","runs": "612","bestFigure": "402","highestScore": "66","average": "20.4","strikeRate": "152.24","nO": "20","four": "39","six": "41"
+    }
+  },
+  "bowlingCareerSummary": {
+    "test": {
+      "match": "69", "inning": "129","balls": "13977","runs": "6733","wicket": "304","average": "22.15","Econ": "2.89","sR": "45.98","bbI": "6/23","bbM": "10/62","5W": "14","10W": "2"
+    },
+    "odi": {
+      "match": "90","inning": "90","balls": "4683", "runs": "4116","wicket": "143", "average": "28.78", "Econ": "5.27",
+       "sR": "32.75","bbI": "5/70","bbM": "5/70","5W": "01","10W": "0"
+    },
+    "t20": {
+      "match": "57", "inning": "57", "balls": "1254","runs": "1556","wicket": "66", "average": "23.58","Econ": "7.44", "sR": "19.00","bbI": "3/15","bbM": "3/15","5W": "0","10W": "0"
+    },
+    "ipl": {
+      "match": "72","inning": "72","balls": "1617","runs": "2373", "wicket": "79","average": "30.04","Econ": "8.81","sR": "20.47","bbI": "4/34","bbM": "4/34","5W": "0", "10W": "0"
+    }
+    
+  }
+},
+
+{
+  "name": "Seales",
+  "fullName": "Jayden Seales",
+  "personalInformation": {
+    "bornDate": "September 10, 2001",
+    "birthPlace": "Trinidad & Tobago",
+    "height": "1.92 m",
+    "roleType": "Bowler",
+    "battingType": "Left Handed Bat",
+    "bowlingType": "Bowler"
+  },
+  "playerImages": {
+    "images": "/JavaScript/playerObject/jS.png"
+  },
+  "iccRanking": {
+    "batting": {
+      "test": "-","odi": "-","t20": "-"
+    },
+    "bowling": {
+      "test": "-","odi": "-", "t20": "-"
+    }
+  },
+  "careerInformation": {
+    "ccTeam": [
+      "Sussex"
+    ],
+    "lplTeam":[
+      "Jaffna Kings"
+    ],
+    "cplTeam":[
+      "Barbuda Falcons","Trinbago Knight Riders"
+    ],
+    "nationalTeam": [
+      "West Indies"
+    ],
+    "domesticTeam": [
+      "West Indies A", "New South Wales", "Cummins XI"
+    ],
+    "under19":[
+      "West Indies U19"
+    ]
+  },
+  "battingCareerSummary": {
+    "test": {
+      "50": "0","100": "0","200": "0","match": "19", "inning": "32","runs": "126","bestFigure": "320","highestScore": "22","average": "7","strikeRate": "39.38","nO": "14","four": "10","six": "6"
+    },
+    "odi": {
+      "50": "0","100": "0","200": "0","match": "22", "inning": "8","runs": "51","bestFigure": "61","highestScore": "29","average": "12.75","strikeRate": "83.61","nO": "4","four": "3","six": "3"
+    },
+    "t20": {
+      "50": "0","100": "0","200": "0","match": "1", "inning": "1","runs": "4","bestFigure": "2","highestScore": "4","average": "0","strikeRate": "200.00","nO": "1","four": "1","six": "0"
+    },
+    "ipl": {
+      "50": "0","100": "0","200": "0","match": "0", "inning": "0","runs": "0","bestFigure": "0","highestScore": "0","average": "0","strikeRate": "0","nO": "0","four": "0","six": "0"
+    }
+  },
+  "bowlingCareerSummary": {
+    "test": {
+      "match": "19", "inning": "36","balls": "3140","runs": "1800","wicket": "81","average": "22.22","Econ": "3.44","sR": "38.77","bbI": "6/61","bbM": "9/106","5W": "3","10W": "0"
+    },
+    "odi": {
+      "match": "22","inning": "21","balls": "902", "runs": "928","wicket": "21", "average": "44.19", "Econ": "6.17",
+       "sR": "42.95","bbI": "4/22","bbM": "4/22","5W": "0","10W": "0"
+    },
+    "t20": {
+      "match": "1", "inning": "1", "balls": "12","runs": "18","wicket": "0", "average": "0.0","Econ": "9", "sR": "0.0","bbI": "0/18","bbM": "0/18","5W": "0","10W": "0"
+    },
+    "ipl": {
+      "match": "-","inning": "-","balls": "-","runs": "-", "wicket": "-","average": "-","Econ": "-","sR": "-","bbI": "-","bbM": "-","5W": "-", "10W": "-"
+    }
+    
+  }
+},
+
+{
+  "name": "Henry",
+  "fullName": "Matt Henry",
+  "personalInformation": {
+    "bornDate": "December 14, 1991",
+    "birthPlace": "Christchurch, Canterbury",
+    "height": "--",
+    "roleType": "Bowler",
+    "battingType": "Left Handed Bat",
+    "bowlingType": "Bowler"
+  },
+  "playerImages": {
+    "images": "/JavaScript/playerObject/mH.png"
+  },
+  "iccRanking": {
+    "batting": {
+      "test": "-","odi": "-","t20": "-"
+    },
+    "bowling": {
+      "test": "-","odi": "-", "t20": "-"
+    }
+  },
+  "careerInformation": {
+    "ccTeam": [
+      "Sussex"
+    ],
+    "lplTeam":[
+      "Jaffna Kings"
+    ],
+    "cplTeam":[
+      "Barbuda Falcons","Trinbago Knight Riders"
+    ],
+    "nationalTeam": [
+      "West Indies"
+    ],
+    "domesticTeam": [
+      "West Indies A", "New South Wales", "Cummins XI"
+    ],
+    "under19":[
+      "West Indies U19"
+    ]
+  },
+  "battingCareerSummary": {
+    "test": {
+      "50": "0","100": "0","200": "0","match": "19", "inning": "32","runs": "126","bestFigure": "320","highestScore": "22","average": "7","strikeRate": "39.38","nO": "14","four": "10","six": "6"
+    },
+    "odi": {
+      "50": "0","100": "0","200": "0","match": "22", "inning": "8","runs": "51","bestFigure": "61","highestScore": "29","average": "12.75","strikeRate": "83.61","nO": "4","four": "3","six": "3"
+    },
+    "t20": {
+      "50": "0","100": "0","200": "0","match": "1", "inning": "1","runs": "4","bestFigure": "2","highestScore": "4","average": "0","strikeRate": "200.00","nO": "1","four": "1","six": "0"
+    },
+    "ipl": {
+      "50": "0","100": "0","200": "0","match": "0", "inning": "0","runs": "0","bestFigure": "0","highestScore": "0","average": "0","strikeRate": "0","nO": "0","four": "0","six": "0"
+    }
+  },
+  "bowlingCareerSummary": {
+    "test": {
+      "match": "30", "inning": "59","balls": "6750","runs": "3581","wicket": "120","average": "29.84","Econ": "3.18","sR": "56.25","bbI": "7/23","bbM": "9/55","5W": "4","10W": "0"
+    },
+    "odi": {
+      "match": "91","inning": "89","balls": "4734", "runs": "4094","wicket": "165", "average": "24.81", "Econ": "5.19",
+       "sR": "28.69","bbI": "5/30","bbM": "5/30","5W": "3","10W": "0"
+    },
+    "t20": {
+      "match": "21", "inning": "20", "balls": "462","runs": "639","wicket": "27", "average": "23.67","Econ": "8.3", "sR": "17.11","bbI": "3/32","bbM": "3/32","5W": "0","10W": "0"
+    },
+    "ipl": {
+      "match": "6","inning": "6","balls": "102","runs": "181", "wicket": "2","average": "90.5","Econ": "10.65","sR": "51.0","bbI": "1/28","bbM": "1/28","5W": "0", "10W": "0"
+    }
+    
+  }
+}
 
 ]
