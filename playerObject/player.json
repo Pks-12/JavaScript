@@ -11,7 +11,7 @@
     "bowlingType": "Left-aram fast"
   },
   "playerImages": {
-    "images": "/JavaScript/playerObject/starc.png"
+    "images": "/JavaScript/playerObject/images/starc.png"
   },
   "iccRanking": {
     "batting": {
@@ -181,7 +181,7 @@
     "bowlingType": "Right-aram fast"
   },
   "playerImages": {
-    "images": "/JavaScript/playerObject/jB.png"
+    "images": "/JavaScript/playerObject/images/jB.png"
   },
   "iccRanking": {
     "batting": {
@@ -342,7 +342,7 @@
     "bowlingType": "Right-aram fast"
   },
   "playerImages": {
-    "images": "/JavaScript/playerObject/shami.png"
+    "images": "/JavaScript/playerObject/images/shami.png"
   },
   "iccRanking": {
     "batting": {
@@ -501,7 +501,7 @@
     "bowlingType": "Right-arm fast-medium"
   },
   "playerImages": {
-    "images": "/JavaScript/playerObject/bhuvi.jpg"
+    "images": "/JavaScript/playerObject/images/bhuvi.jpg"
   },
   "iccRanking": {
     "batting": {
@@ -566,7 +566,7 @@
     "bowlingType": "Right-arm fast"
   },
   "playerImages": {
-    "images": "/JavaScript/playerObject/kR.png"
+    "images": "/JavaScript/playerObject/images/kR.png"
   },
   "iccRanking": {
     "batting": {
@@ -643,7 +643,7 @@
     "bowlingType": "Right-arm fast"
   },
   "playerImages": {
-    "images": "/JavaScript/playerObject/pC.png"
+    "images": "/JavaScript/playerObject/images/pC.png"
   },
   "iccRanking": {
     "batting": {
@@ -714,7 +714,7 @@
     "bowlingType": "Bowler"
   },
   "playerImages": {
-    "images": "/JavaScript/playerObject/jS.png"
+    "images": "/JavaScript/playerObject/images/jS.png"
   },
   "iccRanking": {
     "batting": {
@@ -784,52 +784,55 @@
     "birthPlace": "Christchurch, Canterbury",
     "height": "--",
     "roleType": "Bowler",
-    "battingType": "Left Handed Bat",
-    "bowlingType": "Bowler"
+    "battingType": "Right Handed Bat",
+    "bowlingType": "Right-arm fast-medium"
   },
   "playerImages": {
-    "images": "/JavaScript/playerObject/mH.png"
+    "images": "/JavaScript/playerObject/images/mH.png"
   },
   "iccRanking": {
     "batting": {
       "test": "-","odi": "-","t20": "-"
     },
     "bowling": {
-      "test": "-","odi": "-", "t20": "-"
+      "test": "6","odi": "7", "t20": "42"
     }
   },
   "careerInformation": {
     "ccTeam": [
-      "Sussex"
+      "Worcestershire","Derbyshire","Kent","Edinburgh Rocks","Somerset"
+    ],
+    "100ballTeam":[
+      "Welsh Fire"
     ],
     "lplTeam":[
       "Jaffna Kings"
     ],
-    "cplTeam":[
-      "Barbuda Falcons","Trinbago Knight Riders"
+    "iplTeam":[
+      " Chennai Super Kings","Punjab Kings"
     ],
     "nationalTeam": [
-      "West Indies"
+      "New Zealand"
     ],
     "domesticTeam": [
-      "West Indies A", "New South Wales", "Cummins XI"
+      "New Zealand A", "New Zealand XI", "Team Latham"
     ],
-    "under19":[
-      "West Indies U19"
+    "mlcTeam":[
+      "San Francisco Unicorns"
     ]
   },
   "battingCareerSummary": {
     "test": {
-      "50": "0","100": "0","200": "0","match": "19", "inning": "32","runs": "126","bestFigure": "320","highestScore": "22","average": "7","strikeRate": "39.38","nO": "14","four": "10","six": "6"
+      "50": "4","100": "0","200": "0","match": "30", "inning": "42","runs": "649","bestFigure": "834","highestScore": "72","average": "18.03","strikeRate": "77.82","nO": "6","four": "87","six": "20"
     },
     "odi": {
-      "50": "0","100": "0","200": "0","match": "22", "inning": "8","runs": "51","bestFigure": "61","highestScore": "29","average": "12.75","strikeRate": "83.61","nO": "4","four": "3","six": "3"
+      "50": "0","100": "0","200": "0","match": "91", "inning": "38","runs": "270","bestFigure": "290","highestScore": "48","average": "10.38","strikeRate": "93.11","nO": "12","four": "22","six": "11"
     },
     "t20": {
-      "50": "0","100": "0","200": "0","match": "1", "inning": "1","runs": "4","bestFigure": "2","highestScore": "4","average": "0","strikeRate": "200.00","nO": "1","four": "1","six": "0"
+      "50": "0","100": "0","200": "0","match": "21", "inning": "7","runs": "24","bestFigure": "27","highestScore": "12","average": "6","strikeRate": "88.89","nO": "3","four": "2","six": "1"
     },
     "ipl": {
-      "50": "0","100": "0","200": "0","match": "0", "inning": "0","runs": "0","bestFigure": "0","highestScore": "0","average": "0","strikeRate": "0","nO": "0","four": "0","six": "0"
+      "50": "0","100": "0","200": "0","match": "6", "inning": "0","runs": "0","bestFigure": "0","highestScore": "0","average": "0","strikeRate": "0","nO": "0","four": "0","six": "0"
     }
   },
   "bowlingCareerSummary": {
@@ -848,6 +851,153 @@
     }
     
   }
-}
+},
 
+{
+  "name": "Kuldeep ",
+  "fullName": "Kuldeep Yadav",
+  "personalInformation": {
+    "bornDate": "December 14, 1994 ",
+    "birthPlace": "Kanpur, Uttar Pradesh, India",
+    "height": "-",
+    "roleType": "Bowler",
+    "battingType": "Left Handed Bat",
+    "bowlingType": "Left-arm wrist-spin"
+  },
+  "playerImages": {
+    "images": "/JavaScript/playerObject/images/kY.png"
+  },
+  "iccRanking": {
+    "batting": {
+      "test": "-","odi": "-","t20": "-"
+    },
+    "bowling": {
+      "test": "23","odi": "2", "t20": "27"
+    }
+  },
+  "careerInformation": {
+    "iplTeam": [
+      " Kolkata Knight Riders","Delhi Capitals"
+    ],
+    "nationalTeam": [
+      "India"
+    ],
+    "domesticTeam": [
+      "India A", "Central Zone", "Uttar Pradesh", "India Red", "Rest of India","India AT20","Indian Board Presidents XI"," Asia XI"
+    ]
+  },
+  "battingCareerSummary": {
+    "test": {
+      "50": "0","100": "0","200": "0","match": "13", "inning": "17","runs": "199","bestFigure": "698","highestScore": "40","average": "13.27","strikeRate": "28.52","nO": "2","four": "18","six": "01"
+    },
+    "odi": {
+      "50": "0","100": "0","200": "0","match": "113", "inning": "42","runs": "207","bestFigure": "407","highestScore": "19","average": "9.86","strikeRate": "50.86","nO": "21","four": "14","six": "0"
+    },
+    "t20": {
+      "50": "0","100": "0","200": "0","match": "40", "inning": "7","runs": "46","bestFigure": "59","highestScore": "23","average": "11.5","strikeRate": "77.97","nO": "3","four": "2","six": "0"
+    },
+    "ipl": {
+      "50": "0","100": "0","200": "0","match": "98", "inning": "38","runs": "201","bestFigure": "232","highestScore": "35","average": "13.4","strikeRate": "86.64","nO": "23","four": "18","six": "3"
+    }
+  },
+  "bowlingCareerSummary": {
+    "test": {
+      "match": "13", "inning": "24","balls": "2093","runs": "1241","wicket": "56","average": "22.16","Econ": "3.56","sR": "37.38","bbI": "5/40","bbM": "08/113","5W": "04","10W": "0"
+    },
+    "odi": {
+      "match": "113","inning": "110","balls": "5754", "runs": "4786","wicket": "181", "average": "26.44", "Econ": "4.99",
+       "sR": "31.79","bbI": "6/25","bbM": "6/25","5W": "02","10W": "0"
+    },
+    "t20": {
+      "match": "40", "inning": "39", "balls": "860","runs": "971","wicket": "69", "average": "14.07","Econ": "6.77", "sR": "12.46","bbI": "5/17","bbM": "5/17","5W": "2","10W": "0"
+    },
+    "ipl": {
+      "match": "98","inning": "95","balls": "2052","runs": "2749", "wicket": "102","average": "26.95","Econ": "8.04","sR": "20.12","bbI": "4/14","bbM": "4/14","5W": "0", "10W": "0"
+    }
+    
+  }
+},
+
+{
+  "name": "Theekshana",
+  "fullName": "Maheesh Theekshana",
+  "personalInformation": {
+    "bornDate": "August 01, 2000",
+    "birthPlace": "Colombo",
+    "height": "--",
+    "roleType": "Bowler",
+    "battingType": "Right Handed Bat",
+    "bowlingType": "Right-arm offbreak"
+  },
+  "playerImages": {
+    "images": "/JavaScript/playerObject/images/mT.png"
+  },
+  "iccRanking": {
+    "batting": {
+      "test": "-","odi": "-","t20": "-"
+    },
+    "bowling": {
+      "test": "-","odi": "1", "t20": "-"
+    }
+  },
+  "careerInformation": {
+    "cplTeam": [
+      "Trinbago Knight Riders","Barbados Royals"
+    ],
+    "sa20Team":[
+      "Joburg Super Kings"
+    ],
+    "lplTeam":[
+      "Jaffna Kings","Jaffna Stallions","Galle Marvels"
+    ],
+    "iplTeam":[
+      " Chennai Super Kings","Rajasthan Royals"
+    ],
+    "nationalTeam": [
+      "Sri Lanka"
+    ],
+    "domesticTeam": [
+      "-"
+    ],
+    "ilt20Team":[
+      "Sharjah Warriorz"
+    ],
+    "t10Team":[
+      "Northern Warriors","Chennai Brave Jaguars","Morrisville Samp Army","Cape Town Samp Army","Deccan Gladiators"
+    ],
+    "bblTeam":[
+      "Rangpur Riders"
+    ]
+  },
+  "battingCareerSummary": {
+    "test": {
+      "50": "0","100": "0","200": "0","match": "2", "inning": "3","runs": "59","bestFigure": "149","highestScore": "38","average": "19.67","strikeRate": "39.60","nO": "0","four": "6","six": "1"
+    },
+    "odi": {
+      "50": "0","100": "0","200": "0","match": "53", "inning": "30","runs": "315","bestFigure": "580","highestScore": "38","average": "16.58","strikeRate": "54.32","nO": "11","four": "22","six": "3"
+    },
+    "t20": {
+      "50": "0","100": "0","200": "0","match": "60", "inning": "26","runs": "66","bestFigure": "103","highestScore": "14","average": "3.88","strikeRate": "64.08","nO": "9","four": "4","six": "2"
+    },
+    "ipl": {
+      "50": "0","100": "0","200": "0","match": "38", "inning": "6","runs": "17","bestFigure": "34","highestScore": "7","average": "5.67","strikeRate": "50.00","nO": "3","four": "0","six": "1"
+    }
+  },
+  "bowlingCareerSummary": {
+    "test": {
+      "match": "2", "inning": "4","balls": "365","runs": "188","wicket": "5","average": "37.6","Econ": "3.09","sR": "73.0","bbI": "2/28","bbM": "3/76","5W": "0","10W": "0"
+    },
+    "odi": {
+      "match": "53","inning": "52","balls": "2573", "runs": "1971","wicket": "77", "average": "25.61", "Econ": "4.6",
+       "sR": "33.42","bbI": "4/25","bbM": "4/25","5W": "0","10W": "0"
+    },
+    "t20": {
+      "match": "60", "inning": "60", "balls": "1344","runs": "1541","wicket": "58", "average": "26.57","Econ": "6.88", "sR": "23.17","bbI": "3/17","bbM": "3/17","5W": "0","10W": "0"
+    },
+    "ipl": {
+      "match": "38","inning": "38","balls": "876","runs": "1207", "wicket": "36","average": "33.53","Econ": "8.27","sR": "24.33","bbI": "4/33","bbM": "4/33","5W": "0", "10W": "0"
+    }
+    
+  }
+}
 ]

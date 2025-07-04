@@ -17,7 +17,6 @@
 //         role.textContent = `Role: ${player.personalInformation.roleType}`;
 //         role.style.color = "white"
 
-        
 //         const nationalTeam = document.createElement("h2");
 //         nationalTeam.textContent = player.careerInformation.nationalTeam;
 //         nationalTeam.style.color = "white"
@@ -80,7 +79,6 @@
 //     .catch(error => console.error("Error loading JSON:", error));
 // });
 
-
 // document.getElementById("search").addEventListener("click", function () {
 //   const searchValue = document.getElementById("searchInput").value.trim().toLowerCase();
 
@@ -93,7 +91,7 @@
 //       // Only allow exact word 'bowler' or 'bowlers'
 //       if (searchValue === "bowler" || searchValue === "bowlers") {
 //         document.getElementById("heading").textContent = `${data.length} Top Bowlers`;
-  
+
 //         data.forEach(player => {
 //           const card = document.createElement("div");
 
@@ -124,13 +122,12 @@
 //       } else {
 //         document.getElementById("heading").textContent = "No Results Found";
 //       }
-      
+
 //     })
 //     .catch(error => console.error("Error loading JSON:", error));
 // });
 
 // if users search the bowler or bowlers it only show the result other wise it return nothing.... hahah
-
 
 // document.getElementById("search").addEventListener("click", function () {
 //   // Get search value and normalize it
@@ -287,27 +284,29 @@
 //   return card;
 // }
 
-
 document.getElementById("search").addEventListener("click", function () {
-  const searchValue = document.getElementById("searchInput").value.trim().toLowerCase();
+  const searchValue = document
+    .getElementById("searchInput")
+    .value.trim()
+    .toLowerCase();
 
   const loader = document.getElementById("loader");
   loader.style.display = "block"; // Show loading spinner
 
   fetch("player.json")
-    .then(response => response.json())
-    .then(data => {
+    .then((response) => response.json())
+    .then((data) => {
       // Delay processing by 2 seconds to simulate loading
       setTimeout(() => {
         // Calculate rating for each player based on ODI bowling stats
-        data.forEach(player => {
+        data.forEach((player) => {
           const bowling = player.bowlingCareerSummary?.odi;
           if (bowling) {
             const wickets = parseFloat(bowling.wicket) || 0;
             const economy = parseFloat(bowling.Econ) || 0;
             const average = parseFloat(bowling.average) || 0;
-            player.rating = (wickets * 2) - (economy * 5) - (average * 1);
-       // Ensure non-negative rating
+            player.rating = wickets * 2 - economy * 5 - average * 1;
+            // Ensure non-negative rating
           } else {
             player.rating = 0;
           }
@@ -319,27 +318,31 @@ document.getElementById("search").addEventListener("click", function () {
         // Handle search logic
         if (searchValue === "top bowlers") {
           const topBowlers = data
-            .filter(p => p.personalInformation.roleType.toLowerCase().includes("bowler"))
+            .filter((p) =>
+              p.personalInformation.roleType.toLowerCase().includes("bowler")
+            )
             .sort((a, b) => b.rating - a.rating)
             .slice(0, 3);
 
           document.getElementById("heading").textContent = `Top 3 Bowlers`;
 
-          topBowlers.forEach(player => {
+          topBowlers.forEach((player) => {
             const card = createPlayerCard(player);
             container.appendChild(card);
           });
-
         } else if (searchValue === "bowler" || searchValue === "bowlers") {
-          const bowlers = data.filter(p => p.personalInformation.roleType.toLowerCase().includes("bowler"));
+          const bowlers = data.filter((p) =>
+            p.personalInformation.roleType.toLowerCase().includes("bowler")
+          );
 
-          document.getElementById("heading").textContent = `${bowlers.length} Top Bowlers`;
+          document.getElementById(
+            "heading"
+          ).textContent = `${bowlers.length} Top Bowlers`;
 
-          bowlers.forEach(player => {
+          bowlers.forEach((player) => {
             const card = createPlayerCard(player);
             container.appendChild(card);
           });
-
         } else {
           document.getElementById("heading").textContent = "No Results Found";
         }
@@ -347,7 +350,7 @@ document.getElementById("search").addEventListener("click", function () {
         loader.style.display = "none"; // Hide loading spinner after delay
       }, 1500); // 2-second delay
     })
-    .catch(error => {
+    .catch((error) => {
       console.error("Error loading JSON:", error);
       loader.style.display = "none"; // Hide spinner on error
     });
